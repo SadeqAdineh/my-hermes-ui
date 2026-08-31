@@ -1,5 +1,4 @@
-─ dockerfile
-      FROM nousresearch/hermes-agent:latest
+FROM nousresearch/hermes-agent:latest
       # Build the custom UI
       USER root
       RUN apt-get update && apt-get install -y git npm && \
